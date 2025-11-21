@@ -30,4 +30,11 @@ Este repositório contém exemplos e práticas de testes automatizados utilizand
       "GITHUB_PASS": "sua_senha"
     }
     ```
+
+ **Atenção:** Os testes estão no diretório `cypress/e2e/`. Existem três arquivos de teste:
+
+- `spec.cy.js` — teste inicial que demonstra os recursos da ferramenta.
+- `spec-login.cy.js` — teste de login no GitHub; mostra como um usuário acessa o sistema.
+- `spec-req.cy.js` — testes relacionados a requisições; exemplifica como testar requests no Cypress.
+
 > **Atenção:** Apague o comentario que tem no arquivo `cypress.env.json` e insira suas credenciais reais para que os testes funcionem corretamente.
