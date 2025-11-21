@@ -1,0 +1,15 @@
+{
+  "name": "teste-automatizado-aula",
+  "version": "0.0.1",
+  "description": "teste automatizado de cypress para a aula.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bruno Gomes da Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.7.0"
+  }
+}
